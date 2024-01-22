@@ -1,0 +1,152 @@
+.main__inner-projects{      
+    background-color: #131313;
+}
+
+.main__section2{
+    padding: 100px 0 400px;    
+}
+
+.main__projects-navigation{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 52px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.line-decorate{
+    font-family: Yeseva One;
+    margin-right: 59.5px;
+    padding-bottom: 7px;
+    color: rgba(255, 255, 255, 0.30);
+
+}
+
+.line-decorate:hover{
+    border-bottom: 1px solid #e3b873;
+    color: #e3b873;
+}
+
+
+
+.arrows{
+    /*background: url(../img/slider.svg);*/
+}
+
+.main__projects-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__projects-container-text{
+    max-width: 557px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__projects-img{
+    display: none;
+}
+
+.main__projects-container-img{
+    width: 679px;    
+    background: url(../img/section_2-1.png);
+    box-sizing: border-box;
+}
+
+.projects-cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-items{
+    width: 50%;
+    padding-bottom: 34px;
+}
+
+.projects-text{
+    letter-spacing: -1.89px;
+    padding-bottom: 34px;
+}
+
+.projects-subitle{
+    font-size: 14px;
+    line-height: 190.96%; 
+    color: #FFF;
+    padding-bottom: 42px;
+}
+
+.items-title{
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+/*HOME*/
+@media screen and (max-width: 1440px){
+    
+}
+
+/*MID*/
+@media screen and (max-width: 976px){
+
+    .mine__br-2{
+        display: none;
+    }
+
+    .main__projects-container{
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .main__projects-navigation{
+        display: none;
+    }
+
+    .projects-text {
+        text-align: center;
+    }
+
+    .projects-subitle{
+        text-align: center;
+    }
+
+    .main__projects-container-img{
+        display: none;
+    }
+
+   .main__projects-img{
+        display:contents;
+    }
+
+    .img__left-right{
+        width: 313px;
+        position: relative;
+        top: -140px;
+        right: -15px;
+    }
+
+    .projects-cards{
+        padding-top: 36px;
+    }
+
+    .items-title{
+        font-size: 14px;
+    }
+
+    .projects-subitle{
+        font-size: 11px;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+}
+
+/*MOBILE*/
+@media screen and (max-width: 375px){
+
+}
