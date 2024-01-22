@@ -1,0 +1,132 @@
+.main__section1{
+    background: url(../img/section_1.png) no-repeat;    
+    background-size: cover;
+
+
+}
+
+.main__section1{
+    height: 707px;
+    padding: 194px 0 208px;
+    box-sizing: border-box;
+}
+
+.main__section1-content{
+    max-width: 1171px;
+    margin: 0 auto;
+    
+    color: #fff;
+}
+
+.main__section1-content__title-white{
+
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.main__section1-content__title{
+    color: #E3B873;
+    font-family: Yeseva One;
+    letter-spacing: 1px;
+}
+
+.main__section1-content__info{
+    margin: 19px 0 41px;
+    font-size: 22px;
+    line-height: 163.68%;
+}
+
+.main__button1{
+    padding: 19px 23px;
+}
+
+.main__button1:hover{
+    background-color: #dbc198;
+}
+
+.main__button2{
+    margin-left: 20px;
+    padding: 19px 41px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFF;
+}
+
+.main__button2:hover{
+    background-color: #dbc198
+}
+
+
+/*HOME*/
+@media screen and (max-width: 1440px){
+    
+    .main__section1{
+        background: url(../img/section_1\(mid\).png) no-repeat;        
+        background-size: cover;   
+        
+    }
+    
+    .main__section1-content{        
+        max-width: 50%;
+    }
+    
+
+
+
+}
+
+/*MID*/
+@media screen and (max-width: 976px){
+    body{
+        background-color: #131313;
+    }
+
+    .main__section1-content{
+       width: 340px;
+    }
+
+   .mine__br-1{
+        display: none;
+   }
+
+    .main__section1-content__title-white, .main__section1-content__title{
+        font-size: 23px;
+        line-height: 135.84%;
+    }
+
+    .main__section1-content__info{
+      margin: 16px 0 32px;
+        font-size: 14px;
+        line-height: 135.84%; 
+    }
+
+
+
+    .main__section1-content__buttons{
+        max-width: 338px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__button2{
+        margin: 26px 0 0 0;
+    }
+}
+
+
+
+/*MOBILE*/
+@media screen and (max-width: 375px){
+
+    .main__section1{
+        background: url(../img/section_1\(min\).png) no-repeat;       
+        background-size: cover; 
+        height: 476px;
+        padding: 85px 0 45px;     
+    }
+
+    .main__section1-content{
+        max-width: 90%;
+    }
+  
+}
