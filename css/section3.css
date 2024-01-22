@@ -1,0 +1,168 @@
+.mine__inner-online{
+    padding-bottom: 147px;
+}
+
+.main__section3{ 
+ background: none;
+ margin-top: -330px;
+    
+}
+
+.online-title{
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.online-camera{
+    background: url(../img/camera.svg) no-repeat; 
+    width: 115px ;
+    height: 35px;
+    margin: 0 auto 31px;
+}
+
+.online-video{
+    display: block;
+    margin: 0 auto;
+}
+
+.online-line{
+    width: 55px;
+    display: block;
+    margin: 0 auto;
+    padding: 62px 0 34px;
+}
+
+.online-subtitle{
+    width: 681px;
+    margin: 0 auto 91px;
+    color: #363636;
+    text-align: center;
+    font-size: 18px;
+    line-height: 204.6%;
+
+}
+
+.online-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs-and-button{
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.online-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online-form-labe{
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    padding-left: 3px;
+}
+
+.online-form-item{
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    margin-right: 58px;
+    outline: none;
+
+}
+
+.online-button{
+    width: 200px;
+    height: 51px;
+}
+
+.online-button:hover{
+    color: #dbc198;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.checkbox-input{
+    display: none;
+}
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+
+/*MID*/
+@media screen and (max-width: 976px){
+    .online-video, .online-subtitle, .online-form{
+        max-width: 340px;
+    }
+
+    .mine__inner-online{
+        padding-bottom: 50px;
+    }
+
+    .online-subtitle{
+        color: #FFF;
+        font-size: 11px;
+        line-height: 169.8%; 
+        margin: 0 auto 75px;
+    }
+
+    .online-form{
+        margin: 0 auto 58px;
+    }
+
+    .inputs-and-button{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .online-input{
+        margin-bottom: 30px;
+    }
+
+    .online-form-labe{
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .online-form-item{
+        font-size: 14px;
+        line-height: 23px;
+        background-color: #131313;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .label{
+        color: #FFF;
+        font-size: 14px;
+    }
+
+    .text{
+        margin-left: 5px;
+    }
+
+}
